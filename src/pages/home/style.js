@@ -1,8 +1,13 @@
 import styled from 'styled-components';
+import { AnimationUp } from '../../components/animationUp/index';
 
 export const Pagetitle = styled.h1`
   font-size: 50px;
   margin: 10px;
+  animation: ${AnimationUp};
+  animation-duration: 2500ms;
+  animation-delay: 2500ms;
+  animation-fill-mode: backwards;
 `;
 
 export const Container = styled.div`
@@ -22,6 +27,9 @@ export const AllContainer = styled.div`
 export const Kidsphoto = styled.img`
   width: 60rem;
   margin-left: 10rem;
+  animation: ${AnimationUp} 5s;
+  animation-delay: 1100ms;
+  animation-fill-mode: backwards;
 `;
 
 export const Arrowimage = styled.img`
@@ -30,4 +38,7 @@ export const Arrowimage = styled.img`
   border-radius: 50%;
   padding: 1rem;
   cursor: pointer;
+  animation: ${AnimationUp} 5s;
+  animation-delay: 3000ms;
+  animation-fill-mode: backwards;
 `;
