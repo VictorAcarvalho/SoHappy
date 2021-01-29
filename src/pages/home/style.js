@@ -52,3 +52,19 @@ export const Arrowimage = styled.img`
   animation-delay: 3500ms;
   animation-fill-mode: backwards;
 `;
+export const Container2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40rem;
+
+  h1 {
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  img {
+    width: 50rem;
+    margin: 5rem;
+  }
+`;
