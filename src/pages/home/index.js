@@ -7,6 +7,7 @@ import {
   AllContainer,
   Kidsphoto,
   Arrowimage,
+  LogoTitle,
 } from './style';
 import photo from '../../assets/undraw_children_4rtb.svg';
 import arrowButton from '../../assets/arrow.svg';
@@ -15,9 +16,9 @@ function Home() {
   return (
     <AllContainer>
       <Container>
-        <Pagetitle>SoHappy</Pagetitle>
+        <LogoTitle>SoHappy</LogoTitle>
         <Pagetitle>Ajude projetos sociais próximos a você</Pagetitle>
-        <Link to="/projects">
+        <Link to="/infoscreen">
           <Arrowimage src={arrowButton} alt="Button" />
         </Link>
         <Global />

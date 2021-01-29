@@ -2,14 +2,24 @@ import styled from 'styled-components';
 import { AnimationUp } from '../../components/animationUp/index';
 
 export const Pagetitle = styled.h1`
-  font-size: 50px;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
   margin: 10px;
   animation: ${AnimationUp};
   animation-duration: 2500ms;
-  animation-delay: 2500ms;
+  animation-delay: 3000ms;
   animation-fill-mode: backwards;
 `;
-
+export const LogoTitle = styled.h1`
+  font-family: 'Nanum Pen Script', cursive;
+  margin: 5px;
+  font-size: 78px;
+  animation: ${AnimationUp};
+  animation-duration: 2500ms;
+  animation-delay: 2000ms;
+  animation-fill-mode: backwards;
+`;
 export const Container = styled.div`
   width: 20vw;
   height: 38vh;
@@ -38,7 +48,7 @@ export const Arrowimage = styled.img`
   border-radius: 50%;
   padding: 1rem;
   cursor: pointer;
-  animation: ${AnimationUp} 5s;
-  animation-delay: 3000ms;
+  animation: ${AnimationUp} 3s;
+  animation-delay: 3500ms;
   animation-fill-mode: backwards;
 `;
