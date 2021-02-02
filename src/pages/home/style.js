@@ -54,9 +54,10 @@ export const Arrowimage = styled.img`
 `;
 export const Container2 = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-top: 40rem;
+  justify-content: space-between;
+  margin-top: 10rem;
 
   h1 {
     font-size: 28px;
