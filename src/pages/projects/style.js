@@ -29,5 +29,10 @@ export const Container = styled.div`
       font-size: 5rem;
       outline: 3rem;
     }
+    .divMap {
+      background-color: white;
+      width: 100px;
+      height: 50px;
+    }
   }
 `;
