@@ -19,7 +19,7 @@ function Home() {
       <Container>
         <LogoTitle>SoHappy</LogoTitle>
         <Pagetitle>Ajude projetos sociais próximos a você</Pagetitle>
-        <Link to="/projectsmap">
+        <Link to="/projects">
           <Arrowimage src={arrowButton} alt="Button" />
         </Link>
         <Global />
