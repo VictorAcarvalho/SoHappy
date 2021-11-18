@@ -1,5 +1,5 @@
 import React from 'react';
-import BaseMap from '../../components/Basemap/index'
+import BaseMap from '../../components/Basemap/index';
 import Global from '../../style/global/global';
 import { Container } from './style';
 import MapviewProvider from '../../context/MapView/index';
@@ -19,9 +19,7 @@ function Projects() {
       </div>
       <div className="divMap">
         <MapviewProvider>
-          <BaseMap
-            center={MapSettings.center}
-          />
+          <BaseMap center={MapSettings.center} />
         </MapviewProvider>
         <Global />
       </div>

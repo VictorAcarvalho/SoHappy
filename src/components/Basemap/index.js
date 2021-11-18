@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { setDefaultOptions, loadModules } from 'esri-loader';
-import { useMapView } from '../../contexts/MapView';
-import * as S from './styles';
+import { useMapView } from '../../context/MapView/index';
+import * as S from './style';
 
-const BaseMap = ({ center = [0, 0], zoom = 0, basemap = 'topo-vector' }) => {
+const BaseMap = ({ center = [0, 0], zoom=0, basemap ='topo-vector' }) => {
   setDefaultOptions({ version: '4.19', css: true });
 
   const { setMapView } = useMapView();
