@@ -4,21 +4,15 @@ import { AnimationUp } from '../../components/animationUp/index';
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   width: 100vw;
   height: 100h;
-=======
->>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
   div {
     width: 25vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     position: left;
-=======
->>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
     h1 {
       font-family: 'Nanum Pen Script', cursive;
       margin: 5rem;
@@ -38,7 +32,6 @@ export const Container = styled.div`
       font-size: 5rem;
       outline: 3rem;
     }
-<<<<<<< HEAD
   }
 `;
 
@@ -72,12 +65,3 @@ export const SearchBar = styled.input`
   background-color: #fafafa;
   outline: #fafafa;
 `;
-=======
-    .divMap {
-      background-color: white;
-      width: 100px;
-      height: 50px;
-    }
-  }
-`;
->>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
