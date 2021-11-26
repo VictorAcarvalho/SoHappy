@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { createContext, useState, useContext } from 'react';
+=======
+import { createContext, useState, useContext } from 'react';
+>>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
 
 const MapViewContext = createContext();
 

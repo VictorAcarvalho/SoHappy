@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react';
 import { setDefaultOptions, loadModules } from 'esri-loader';
-import Search from '@arcgis/core/widgets/Search';
 import { useMapView } from '../../context/MapView/index';
 import * as S from './style';
 
-const BaseMap = ({
-  center = [0, 0],
-  zoom = 10,
-  basemap = 'streets-navigation-vector',
-}) => {
+const BaseMap = ({ center = [0, 0], zoom=0, basemap ='topo-vector' }) => {
   setDefaultOptions({ version: '4.19', css: true });
 
   const { setMapView } = useMapView();
@@ -26,12 +21,6 @@ const BaseMap = ({
           center,
           zoom,
         });
-
-        const searchWidget = new Search({
-          view,
-        });
-
-        view.ui.add(searchWidget, 'top-left');
 
         setMapView([map, view]);
       }
