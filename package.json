@@ -3,19 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@arcgis/core": "^4.21.2",
-=======
->>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
     "@esri/react-arcgis": "^5.1.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
-<<<<<<< HEAD
-    "arcgis-widgets": "^0.2.0",
-    "esri": "^0.0.1-security",
-=======
->>>>>>> d90a8c5f85b6dbf2da54c7f3b3e4c466fd4568d3
     "esri-loader": "^3.3.0",
     "leaflet": "^1.7.1",
     "react": "^17.0.1",
